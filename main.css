@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+  font-family: "Raleway";
+ }
+.navbar{ background:#F97300;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.header{
+ background-image: url('https://content3.jdmagicbox.com/comp/def_content/database_providers/default-database-providers-3.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ 
+}
+
+
+
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+ }
+
+ .description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  
+}
+.description h1{
+color:#F97300 ;
+}
+.description p{
+color:#666;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
+.sliderr{
+  margin: 2em 0;
+  padding: 1em;
+  position: relative;
+}
+.c{
+  padding-top: 0.05em;
+}
+
+.about{
+  margin: 2em 0;
+  padding: 1em;
+  position: relative;
+ }
+ .about h1{
+  color:#F97300;
+  margin: 2em;
+ }
+ .about img{
+  height: 100%;
+     width: 100%;
+     border-radius: 50%
+ }
+ .about span{
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+ }
+ .about .desc{
+  padding: 2em;
+  border-left:4px solid #10828C;
+ }
+ .about .desc h3{
+  color: #10828C;
+ }
+ .about .desc p{
+  line-height:2;
+  color:#888;
+ }
+
+ .portfolio{
+  margin: 4em 0;
+     position: relative; 
+ }
+ .portfolio h1{
+  color:#F97300;
+  margin: 2em; 
+ }
+ .portfolio img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em;
+   
+ }
+
+
+ .blog{
+  margin: 4em 0;
+  position: relative; 
+ }
+ .blog h1{
+  color:#F97300;
+  margin: 2em; 
+ }
+ .blog .card{
+  box-shadow: 0 0 20px #ccc;
+ }
+ .blog .card img{
+  width: 100%;
+  height: 12em;
+ }
+ .blog .card-title{
+  color:#F97300;
+   
+ }
+ .blog .card-body{
+  padding: 1em;
+ }
+
+ section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+ .contact-form{
+  margin: 6em 0;
+  position: relative;  
+ }
+ 
+ .contact-form h1{
+  padding:2em 1px;
+  color: #F97300; 
+ }
+ .contact-form .right{
+  max-width: 600px;
+ }
+ .contact-form .right .btn-secondary{
+  background:  #F97300;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
+
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:red;
+}
+
+
+.pricingg{
+  color:#F97300 ;
+  
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}
