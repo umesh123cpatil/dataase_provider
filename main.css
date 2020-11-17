@@ -16,7 +16,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .navbar-toggler{  background:#fff !important;}
 
 .header{
- background-image: "default-database-providers-3.jpg";
+ background-image: url("default-database-providers-3.jpg");
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
